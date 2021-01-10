@@ -13,7 +13,7 @@ Checked devices:
 
 ## Installation
 
-First of all study [base instruction](./..).
+First of all study [base instruction](../README.md).
 
 In simple case:
 - Replace _my_user_ and _my_password_ with your credential to MQTT broker.
