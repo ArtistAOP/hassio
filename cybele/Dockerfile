@@ -28,7 +28,7 @@ ENV LANG C.UTF-8
 WORKDIR /app
 
 COPY --from=build-env /app .
-RUN ln -s /data/options.json ./config.json
+RUN ln -s /config/cybele.json ./config.json
 
 RUN apk --no-cache update
 RUN apk add --no-cache nodejs

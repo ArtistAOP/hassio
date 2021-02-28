@@ -1,29 +1,12 @@
 {
   "name": "Cybele",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "slug": "cybele",
   "description": "BLE to MQTT Gateway for Smarthome and IoT Devices",
   "url": "https://github.com/ArtistAOP/hassio/tree/main/cybele",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
   "boot": "auto",
-
   "host_dbus": true,
-  
-  "options":
-	{
-	  "mqtt": {
-		"url": "mqtt://my_user:my_password@core-mosquitto"
-	  },
-	  "dongles": [
-		{
-		  "hciDevice": "hci0",
-		  "mode": "le",
-		  "services": [],
-		  "devices": [
-		  ]
-		}
-	  ]
-	},
-  "schema": false
+  "map": ["config"]
 }
