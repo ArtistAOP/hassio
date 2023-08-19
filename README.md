@@ -8,7 +8,7 @@ This is the Home Assistant's _HASS.IO_ add-ons repository.
 
 The add-on is installed like any other:
 
-1. Navigate in your Home Assistant frontend to **Supervisor** -> **Add-on Store**.
+1. Navigate in your Home Assistant frontend to **Settings** -> **Add-ons** -> **ADD-ON STORE**.
 
 2. Click 3-dots menu at upper right > **Repositories** and add this repository URL: [https://github.com/ArtistAOP/hassio](https://github.com/ArtistAOP/hassio)
 
